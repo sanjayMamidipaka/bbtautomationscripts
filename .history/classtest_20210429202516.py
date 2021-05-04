@@ -1,0 +1,4 @@
+class classtest:
+    class = 'classtest'
+
+    

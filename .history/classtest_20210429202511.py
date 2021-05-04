@@ -1,0 +1,3 @@
+class classtest:
+    class = 'classtest'
+
