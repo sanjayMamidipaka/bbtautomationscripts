@@ -15,7 +15,11 @@ from attributes import attributes
 # add import    
 # change writer
 
-writer = pd.ExcelWriter('/Users/sanjaymamidipaka/Downloads/Energizer_Latest_output.xlsx', engine='xlsxwriter')
+
+#change this line to the desired output path
+output_path = '/Users/sanjaymamidipaka/Downloads/Energizer_Latest_output1.xlsx'
+
+writer = pd.ExcelWriter(output_path, engine='xlsxwriter')
 
 energizerpaths = ['/Users/sanjaymamidipaka/Downloads/Energizer Production_ZSAPIBP1C_2021-05-04_21_01/ZSAPIBP1C_MASTERDATATYPES_2021-05-04_21_01.csv',
         '/Users/sanjaymamidipaka/Downloads/Energizer Production_ZSAPIBP1C_2021-05-04_21_01/ZSAPIBP1C_PLEVELS_ATTRS_2021-05-04_21_01.csv',
