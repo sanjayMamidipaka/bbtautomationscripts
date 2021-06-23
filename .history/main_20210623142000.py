@@ -30,7 +30,7 @@ attributesaskfpath = str(input('Enter the attributes path: '))
 timeprofilepath = str(input('Enter the timeprofile path: '))
 paattrpath = str(input('Enter the pa_attributes path: '))
 
-userinputpaths = [masterdatapath, plevelspath, keyfigurespath, attributesaskfpath, timeprofilepath, paattrpath]
+userinputpaths = [masterdatapath, plevelspath, keyfigurespath, ]attributesaskfpath, 
 
 
 energizerpaths = ['/Users/sanjaymamidipaka/Downloads/Energizer Production_ZSAPIBP1C_2021-05-04_21_01/ZSAPIBP1C_MASTERDATATYPES_2021-05-04_21_01.csv',

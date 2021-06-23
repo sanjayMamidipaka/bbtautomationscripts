@@ -25,12 +25,10 @@ paths = []
 
 masterdatapath = str(input('Enter the masterdata path: '))
 plevelspath = str(input('Enter the plevels path: '))
-keyfigurespath = str(input('Enter the keyfigures path: '))
-attributesaskfpath = str(input('Enter the attributes path: '))
-timeprofilepath = str(input('Enter the timeprofile path: '))
-paattrpath = str(input('Enter the pa_attributes path: '))
-
-userinputpaths = [masterdatapath, plevelspath, keyfigurespath, attributesaskfpath, timeprofilepath, paattrpath]
+keyfigurespath = str(input('Enter the masterdata path: '))
+attributesaskfpath = str(input('Enter the masterdata path: '))
+timeprofilepath = str(input('Enter the masterdata path: '))
+paattrpath = str(input('Enter the masterdata path: '))
 
 
 energizerpaths = ['/Users/sanjaymamidipaka/Downloads/Energizer Production_ZSAPIBP1C_2021-05-04_21_01/ZSAPIBP1C_MASTERDATATYPES_2021-05-04_21_01.csv',
